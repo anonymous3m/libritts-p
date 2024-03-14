@@ -58,6 +58,8 @@
             </p>
             
 
+
+        
     </div>
 </section>
         
@@ -71,55 +73,175 @@
 <p><br></p>
 
     <table   style="table-layout: fixed;">
+        <colgroup>
+            <col style="width: 200px;"> 
+            <col style="width: 80%;">  
+        </colgroup>
         <thead>
             <tr>
-                <th style="vertical-align:middle" style="text-align: center" class="td_fixed">Model</th>
+                <th style="vertical-align:middle" style="text-align: center" class="td_fixed">Dataset</th>
                 <th style="text-align: center; vertical-align: middle;">
                     <div>Input Audio 1</div>
-                    <audio controls preload="metadata" src="demo/stylecap/908_31957_000017_000001.wav">
+                    <audio controls preload="metadata" src="demo/stylecap/1580_141084_000076_000002.wav">
                     </audio>
                 </th >
-                <th style="text-align: center; vertical-align: middle;">
-                    <div>Input Audio 2</div>
-                    <audio controls preload="metadata" src="demo/stylecap/260_123440_000011_000004.wav">
-                    </audio>
-                </th >
-                <th style="text-align: center; vertical-align: middle;">
-                    <div>Input Audio 3</div>
-                    <audio controls preload="metadata" src="demo/stylecap/237_134493_000002_000001.wav">
-                    </audio>
-                </th >
-                <th style="text-align: center; vertical-align: middle;">
-                    <div>Input Audio 4</div>
-                    <audio controls preload="metadata" src="demo/stylecap/908_157963_000010_000000.wav">
-                    </audio>
-                </th >
-
-
-
-
             </tr>
         </thead>
         <tbody>
 
 
 <tr>
-    <td style="vertical-align:middle" style="text-align: center"  class="td_fixed">StyleCap w/ PromptSpeech</td>
-    <td style="text-align: center"  >A man bass said slowly</td>
-    <td style="text-align: center"  >This man said loudly that his speed is very slow, but the pitch is high</td>
-    <td style="text-align: center"  >Please give me a woman with a loud voice and normal tone</td>
+    <td style="vertical-align:middle" style="text-align: center"  class="td_fixed">PromptSpeech</td>
+    <td style="text-align: center"  >Her sound height is normal, but the speed is fast, the sound is very loud</td>
+    
+</tr>
+
+
+<tr>
+<td style="vertical-align:middle" style="text-align: center"  class="td_fixed"><b>LibriTTS-P (ours)</b></td>
+<td style="text-align: center"  >Her pitch is normal, but the speed of speech is fast, and the volume is loud. <br>Descriptions of the speaker's vocal style are adult-like, fluent, feminine.</td>
+</tr>
+
+</tbody>
+</table>
+
+<p><br></p>
+
+    <table   style="table-layout: fixed;">
+        <colgroup>
+            <col style="width: 200px;"> 
+            <col style="width: 80%;">  
+        </colgroup>
+        <thead>
+            <tr>
+                <th style="vertical-align:middle" style="text-align: center" class="td_fixed">Dataset</th>
+                <th style="text-align: center; vertical-align: middle;">
+                    <div>Input Audio 2</div>
+                    <audio controls preload="metadata" src="demo/stylecap/121_127105_000024_000002.wav">
+                    </audio>
+                </th >
+            </tr>
+        </thead>
+        <tbody>
+
+
+<tr>
+    <td style="vertical-align:middle" style="text-align: center"  class="td_fixed">PromptSpeech</td>
+    <td style="text-align: center"  >Normal tone, this man said slowly </td>
+    
+</tr>
+
+
+<tr>
+<td style="vertical-align:middle" style="text-align: center"  class="td_fixed"><b>LibriTTS-P (ours)</b></td>
+<td style="text-align: center"  >Ask a woman to speak slowly with a low pitch and low volume. <br>Listeners might perceive the speaker's voice to be slightly dark, adult-like.</td>
+</tr>
+
+</tbody>
+</table>
+
+
+<p><br></p>
+
+    <table   style="table-layout: fixed;">
+        <colgroup>
+            <col style="width: 200px;"> 
+            <col style="width: 80%;">  
+        </colgroup>
+        <thead>
+            <tr>
+                <th style="vertical-align:middle" style="text-align: center" class="td_fixed">Dataset</th>
+                <th style="text-align: center; vertical-align: middle;">
+                    <div>Input Audio 3</div>
+                    <audio controls preload="metadata" src="demo/stylecap/2300_131720_000020_000002.wav">
+                    </audio>
+                </th >
+            </tr>
+        </thead>
+        <tbody>
+
+
+<tr>
+    <td style="vertical-align:middle" style="text-align: center"  class="td_fixed">PromptSpeech</td>
     <td style="text-align: center"  >Normal tone, this man said slowly</td>
     
 </tr>
 
 
 <tr>
-<td style="vertical-align:middle" style="text-align: center"  class="td_fixed"><b>StyleCap w/ LibriTTS-P</b></td>
-<td style="text-align: center"  >Request a man with a high-pitched voice to speak slowly and with low energy. <br>Descriptions of the speaker's vocal style are adult-like, cool, masculine.</td>
-<td style="text-align: center"  >A man speaks slowly, with a high-pitched voice and low volume. <br>Descriptions of the speaker's vocal style are adult-like, masculine, slightly refreshing.</td>
-<td style="text-align: center"  >Ask a woman to speak with normal pitch, slow speaking speed and normal energy. <br>Descriptions of the speaker's vocal style are adult-like, feminine, slightly calm.</td>
-<td style="text-align: center"  >Ask a man to speak slowly with normal pitch and low energy. <br>Descriptions of the speaker's vocal style are adult-like, masculine, slightly refreshing.</td>
+<td style="vertical-align:middle" style="text-align: center"  class="td_fixed"><b>LibriTTS-P (ours)</b></td>
+<td style="text-align: center"  >A man speaks with slow speaking speed, normal pitch and volume. <br>Descriptions of the speaker's vocal style are very masculine, very adult-like, slightly refreshing.</td>
 
+</tr>
+
+</tbody>
+</table>
+
+<p><br></p>
+
+    <table   style="table-layout: fixed;">
+        <colgroup>
+            <col style="width: 200px;"> 
+            <col style="width: 80%;">  
+        </colgroup>
+        <thead>
+            <tr>
+                <th style="vertical-align:middle" style="text-align: center" class="td_fixed">Dataset</th>
+                <th style="text-align: center; vertical-align: middle;">
+                    <div>Input Audio 4</div>
+                    <audio controls preload="metadata" src="demo/stylecap/908_31957_000019_000001.wav">
+                    </audio>
+                </th >
+            </tr>
+        </thead>
+        <tbody>
+
+
+<tr>
+    <td style="vertical-align:middle" style="text-align: center"  class="td_fixed">PromptSpeech</td>
+    <td style="text-align: center"  >Please use a slow tone speed and lower volume to say a man</td>
+    
+</tr>
+
+
+<tr>
+<td style="vertical-align:middle" style="text-align: center"  class="td_fixed"><b>LibriTTS-P (ours)</b></td>
+<td style="text-align: center"  >Request a man with a high-pitched voice to speak slowly and with low energy. <br>Descriptions of the speaker's vocal style are adult-like, sincere, masculine.</td>
+</tr>
+
+</tbody>
+</table>
+
+<p><br></p>
+
+    <table   style="table-layout: fixed;">
+        <colgroup>
+            <col style="width: 200px;"> 
+            <col style="width: 80%;">  
+        </colgroup>
+        <thead>
+            <tr>
+                <th style="vertical-align:middle" style="text-align: center" class="td_fixed">Dataset</th>
+                <th style="text-align: center; vertical-align: middle;">
+                    <div>Input Audio 5</div>
+                    <audio controls preload="metadata" src="demo/stylecap/260_123288_000011_000002.wav">
+                    </audio>
+                </th >
+            </tr>
+        </thead>
+        <tbody>
+
+
+<tr>
+    <td style="vertical-align:middle" style="text-align: center"  class="td_fixed">PromptSpeech</td>
+    <td style="text-align: center"  >He said loudly </td>
+    
+</tr>
+
+
+<tr>
+<td style="vertical-align:middle" style="text-align: center"  class="td_fixed"><b>LibriTTS-P (ours)</b></td>
+<td style="text-align: center"  >A man speaks with high pitch, normal talking speed and normal power. <br>Descriptions of the speaker's vocal style are masculine, slightly muffled, adult-like.</td>
 </tr>
 
 </tbody>
@@ -130,18 +252,20 @@
     <div class="row">
     </div>
     <div class="row mt-4"><h2>PromptTTS++ [2] Demo</h2></div>
-    <div class="row"><h4>Input PromptSpeech [3] evaluation data</h4></div>
+    <div class="row"><h4>- Evaluation data: PromptSpeech [3] </h4></div>
+    <h5>Prompt: a man at low speed and low pitch say</h5>
 </div>
-<p><br></p>
 
     <table   style="table-layout: fixed;">
+        <colgroup>
+            <col style="width: 200px;"> 
+            <col style="width: 80%;">  
+        </colgroup>
         <thead>
             <tr>
-                <th style="vertical-align:middle" style="text-align: center" class="td_fixed">Model</th>
-                <th style="text-align: center"  >Text: The second passed in height The first, and sought the forehead, <br>and half missed, Half falling on the hair. <br>Prompt: a man at low speed and low pitch say</th>
-                <th style="text-align: center"  >Text: But, cresswell added significantly, capacity differs enormously between races. <br>Prompt: there is a woman who speaks slowly, with normal volume and low pitch</th>
-
-
+                
+                <th style="vertical-align:middle" style="text-align: center" class="td_fixed">Dataset</th>
+                <th style="text-align: center"  >Text: The second passed in height The first, <br>and sought the forehead, and half missed, Half falling on the hair.</th>
             </tr>
         </thead>
         <tbody>
@@ -151,39 +275,31 @@
         <audio controls preload="metadata" src="demo/promptttspp_ps/gt/908_31957_000017_000002.wav">
         </audio>
     </th >
-    <th style="text-align: center; vertical-align: middle;">
-        <audio controls preload="metadata" src="demo/promptttspp_ps/gt/1995_1836_000019_000000.wav">
-        </audio>
-    </th >
-
 
 </tr>
 
+
+
+
 <tr>
-    <td style="vertical-align:middle" style="text-align: center"  class="td_fixed">PromptTTS++ w/ PromptSpeech</td>
+    <td style="vertical-align:middle" style="text-align: center"  class="td_fixed">PromptSpeech</td>
     <th style="text-align: center; vertical-align: middle;">
         <audio controls preload="metadata" src="demo/promptttspp_ps/ps/908_31957_000017_000002.wav">
         </audio>
     </th >
-    <th style="text-align: center; vertical-align: middle;">
-        <audio controls preload="metadata" src="demo/promptttspp_ps/ps/1995_1836_000019_000000.wav">
-        </audio>
-    </th >
+
 
 
 </tr>
 
 
 <tr>
-<td style="vertical-align:middle" style="text-align: center"  class="td_fixed"><b>PromptTTS++ w/ LibriTTS-P</b></td>
+<td style="vertical-align:middle" style="text-align: center"  class="td_fixed"><b>LibriTTS-P (ours)</b></td>
 <th style="text-align: center; vertical-align: middle;">
     <audio controls preload="metadata" src="demo/promptttspp_ps/lp/908_31957_000017_000002.wav">
     </audio>
 </th >
-<th style="text-align: center; vertical-align: middle;">
-    <audio controls preload="metadata" src="demo/promptttspp_ps/lp/1995_1836_000019_000000.wav">
-    </audio>
-</th >
+
 </tr>
 
 </tbody>
@@ -194,18 +310,21 @@
     
     <div class="row">
     </div>
-    <div class="row mt-4"><h4>Input LibriTTS-P evaluation data</h4></div>
+    <div class="row mt-4"><h4>- Evaluation data: LibriTTS-P </h4></div>
+    <h5>Prompt: a man speaks with high pitch, normal talking speed and normal power. The speaker identity can be described as very masculine, adult-like, slightly thick, cool, slightly intellectual, slightly calm, slightly elegant.</h5>
 </div>
-<p><br></p>
 
     <table   style="table-layout: fixed;">
+        <colgroup>
+            <col style="width: 200px;"> 
+            <col style="width: 80%;">  
+        </colgroup>
+
         <thead>
             <tr>
-                <th style="vertical-align:middle" style="text-align: center" class="td_fixed">Model</th>
-                <th style="text-align: center"  ></th>
-                <th style="text-align: center"  ></th>
-                <th style="text-align: center"  ></th>
-                <th style="text-align: center" ></th>
+                <th style="vertical-align:middle" style="text-align: center" class="td_fixed">Dataset</th>
+                <th style="text-align: center"  >Text: At any rate we cannot feel sorry to have come so far.</th>
+                
 
 
             </tr>
@@ -214,53 +333,31 @@
 <tr>
     <td style="vertical-align:middle" style="text-align: center"  class="td_fixed">Ground truth</td>
     <th style="text-align: center; vertical-align: middle;">
-
+        <audio controls preload="metadata" src="demo/promptttspp_lp/gt/260_123286_000018_000000.wav">
+        </audio>
     </th >
-    <th style="text-align: center; vertical-align: middle;">
 
-    </th >
-    <th style="text-align: center; vertical-align: middle;">
-
-    </th >
-    <th style="text-align: center; vertical-align: middle;">
-
-    </th >
 
 
 </tr>
 
 <tr>
-    <td style="vertical-align:middle" style="text-align: center"  class="td_fixed">PromptTTS++ w/ PromptSpeech</td>
+    <td style="vertical-align:middle" style="text-align: center"  class="td_fixed">PromptSpeech</td>
     <th style="text-align: center; vertical-align: middle;">
-
+        <audio controls preload="metadata" src="demo/promptttspp_lp/ps/260_123286_000018_000000.wav">
+        </audio>
     </th >
-    <th style="text-align: center; vertical-align: middle;">
 
-    </th >
-    <th style="text-align: center; vertical-align: middle;">
-
-    </th >
-    <th style="text-align: center; vertical-align: middle;">
-
-    </th >
 
 
 </tr>
 
 
 <tr>
-<td style="vertical-align:middle" style="text-align: center"  class="td_fixed"><b>PromptTTS++ w/ LibriTTS-P</b></td>
+<td style="vertical-align:middle" style="text-align: center"  class="td_fixed"><b>LibriTTS-P (ours)</b></td>
 <th style="text-align: center; vertical-align: middle;">
-
-</th >
-<th style="text-align: center; vertical-align: middle;">
-
-</th >
-<th style="text-align: center; vertical-align: middle;">
-
-</th >
-<th style="text-align: center; vertical-align: middle;">
-
+    <audio controls preload="metadata" src="demo/promptttspp_lp/lp/260_123286_000018_000000.wav">
+    </audio>
 </th >
 </tr>
 
