@@ -34,6 +34,8 @@
             <title>Demo</title>
         
         
+
+        
             
             
         
@@ -62,11 +64,31 @@
 </section>
         
             <p><link rel="stylesheet" type="text/css" href="style.css"></p>
+            <div class="container">
+                <div class="row"><h2>Abstract</h2></div>
+                
+                <div class="row">
+                    <p class="lead">
+                        We introduce LibriTTS-P, a new corpus based on LibriTTS- R that includes utterance-level descriptions (i.e., prompts) of speaking style and speaker-level prompts of speaker character- istics. We employ a hybrid approach to construct prompt an- notations: (1) manual annotations that capture human percep- tions of speaker characteristics and (2) synthetic annotations on speaking style. Compared to existing English prompt datasets, our corpus provides more diverse prompt annotations for all speakers of LibriTTS-R. Experimental results for prompt-based controllable TTS demonstrate that the TTS model trained with LibriTTS-P achieves higher naturalness than the model using the conventional dataset. Furthermore, the results for style cap- tioning tasks show that the model utilizing LibriTTS-P gener- ates 2.5 times more accurate words than the model using a con- ventional dataset. The URL for our dataset will be provided in the final version of our paper.
+                    </p>
+                </div>
+                <div align="center">
+                    <img src="images/libritts_p_overview.png" width="50%">
+                    <figcaption>Overview of LibriTTS-P and its applications.</figcaption>
+                </div>
+                <div class="row"><h2>Demos</h2></div>
+                <div class="row">
+                    <p class="lead">
+                     This page consists of three demos: StyleCap [1], PromptTTS++ [2] (PromptSpeech [3] evaluation data), and PromptTTS++ (LibriTTS-P evaluation data).
+                    </p>
+                </div>
+            </div>
+            <p><br></p>
 <div class="container">
     
     <div class="row">
     </div>
-    <div class="row"><h2>StyleCap [1] Demo</h2></div>
+    <div class="row"><h2>StyleCap Demo</h2></div>
 </div>
 
 
@@ -251,8 +273,8 @@
     
     <div class="row">
     </div>
-    <div class="row mt-4"><h2>PromptTTS++ [2] Demo</h2></div>
-    <div class="row"><h4>- Evaluation data: PromptSpeech [3] </h4></div>
+    <div class="row mt-4"><h2>PromptTTS++ Demo</h2></div>
+    <div class="row"><h4>- Evaluation data: PromptSpeech </h4></div>
     <h5>Style prompt: a man at low speed and low pitch say</h5>
 </div>
 
